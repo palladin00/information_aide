@@ -19,15 +19,15 @@ import android.widget.Toast;
 
 
 
-public class MainActivity extends Activity 
+public class second extends Activity 
 {
-	
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-		}@Override
+	}@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
@@ -39,19 +39,19 @@ public class MainActivity extends Activity
 			case R.id.item1:
 				Intent inten2t = new Intent(getApplicationContext(),setting.class);
 				startActivity(inten2t); 
-				
+
 				return true;
 			case R.id.item2:
 				Intent intent = new Intent(getApplicationContext(), info.class);
 				startActivity(intent); 
-				
+
 				return true;
-				
+
 
 		}
 		return false;
-	
+
     }
-	
+
 }
 

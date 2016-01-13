@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+		<activity android:name=".info"/>
+		<activity android:name=".setting"/>
+		<activity android:name=".first"/>
+		<activity android:name=".second"/>
+		<activity android:name=".third"/>
+		<activity android:name=".fourth"/>
+		<activity android:name=".fifth"/>
+		<activity android:name=".sixth"/>
+		<activity android:name=".qeust"/>
+			</application>
 
 </manifest>
