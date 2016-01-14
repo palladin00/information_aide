@@ -19,11 +19,13 @@
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
+			android:background="#89E067"
 			android:text="입문"/>
 		<Button
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
+			android:background="#67ACE0"
 			android:text="초급"/>
 	</LinearLayout>
 	<LinearLayout
@@ -36,11 +38,13 @@
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
+			android:background="#67ACE0"
 			android:text="중급"/>
 		<Button
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
+			android:background="#89E067"
 			android:text="고급"/>
 	</LinearLayout>
 	<LinearLayout
@@ -53,16 +57,19 @@
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
   android:layout_weight="0.5"
+	android:background="#EF5454"
   android:text="보조 소스"/>
 	 <Button
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
 android:layout_weight="0.5"
+		 android:background="#E19D4A"
   android:text="Tip"/>
 </LinearLayout>
 	<Button
 		android:layout_marginTop="10dp"
 		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:background="#8267E0"
 		android:text="문의"/>
 </LinearLayout>

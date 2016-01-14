@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<LinearLayout    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+	
+  
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="개발자 티스토리"
+			/>
+		
+	
+	
+		<Button
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="개발자 블로그"
+		/>
+
+	
+	
+		<Button
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="개발자 메일"
+		/>
+
+	
+</LinearLayout>
+	
+	<TextView
+		android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/me"/>
+	
+</LinearLayout>

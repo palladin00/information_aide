@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="me">안녕하세요. 개발자 Palladin입니다.\n 우선 이앱을 다운받아주셔서 정말 감사합니다.\n 앞으로 업데이트를 자주 할 예정입니다.\n 문의사항이나 건의사항은 메일로 보내주시면 되겠습니다. \n즐거운 코딩 하시길 바랍니다~</string>
     <string name="app_name">Info</string>
     <string name="hello_world">Hello world!</string>
 
